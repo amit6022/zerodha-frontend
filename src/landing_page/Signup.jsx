@@ -43,7 +43,7 @@ function Signup() {
 
       if (success) {
         handleSuccess(message);
-        window.location.href = "https://zerodha-dashboard-cvi8.onrender.com/login";
+        window.location.href = "https://zerodha-dashboard-cvi8.onrender.com";
       } else if (error) {
         const details = error?.details[0].message;
         handleError(details);
