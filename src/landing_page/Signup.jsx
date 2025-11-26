@@ -30,7 +30,7 @@ function Signup() {
       return handleError("name, email and password are required");
     }
     try {
-      const url = "http://localhost:3002/auth/signup";
+      const url = "https://zerodha-backend-pqef.onrender.com/auth/signup";
       const response = await fetch(url, {
         method: "POST",
         headers: {
@@ -43,7 +43,7 @@ function Signup() {
 
       if (success) {
         handleSuccess(message);
-        window.location.href = "http://localhost:3001";
+        window.location.href = "https://zerodha-dashboard-cvi8.onrender.com/login";
       } else if (error) {
         const details = error?.details[0].message;
         handleError(details);
