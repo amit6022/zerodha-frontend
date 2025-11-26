@@ -67,7 +67,7 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <a href="https://zerodha-dashboard-cvi8.onrender.com/login" className="text-decoration-none">
+              <a href="https://zerodha-dashboard-cvi8.onrender.com" className="text-decoration-none">
                 Stock Kite
               </a>
             </li>
