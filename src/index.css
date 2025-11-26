@@ -1,13 +1,142 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.nav-link {
+  margin-left: 40px;
+}
+
+.team-photo {
+  width: 275px; /* column ke andar fit */
+  height: 275px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Right Section */
+.between {
+  justify-content: space-between;
+}
+.v-align {
+  align-items: center;
+  display: flex;
+}
+
+/* UNIVERSE */
+.logo-img {
+  width: 150px; /* fixed width */
+  height: 80px; /* fixed height */
+  object-fit: contain; /* image resize hoke box me fit hogi */
+  margin: 10px auto; /* center + gap */
+  display: block;
+}
+
+.evenly {
+  justify-content: space-evenly;
+}
+
+#supportHero {
+  background-color: rgb(56, 126, 209);
+  color: white;
+}
+
+#supportHero a {
+  color: white;
+}
+
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+
+#supportHero input {
+  padding: 15px 50px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+/* *,
+::before,
+::after {
+  box-sizing: "border-box";
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  font-size: 20px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+} */
+/* 
+.containerAuth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerAuth {
+  background-color: #fff;
+  padding: 32px 48px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 8px 8px 24px 0 rgba(66, 68, 90, 1);
+}
+
+.containerAuth > h1 {
+  margin-bottom: 20px;
+}
+
+.containerAuth > form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.containerAuth div {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerAuth input {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.containerAuth input::placeholder {
+  font-size: 12px;
+  font-style: italic;
+}
+
+button {
+  background-color: purple;
+  border: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+} */
